@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Dosis:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Geist+Mono:wght@100..900&family=Gowun+Dodum&family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+SC:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 1);
+    display: block;
+}
+
+div#interface {
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+   
+  
+}
+
+
+header#cabecalho {
+    height: 150px;
+    background-color: rgba(10, 16, 50, 1);
+    background-image: url(../imagens/2.jpg);
+    background-position: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -10px;
+   box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.432);
+
+   
+}
+
+nav#menu {
+    display: block;
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 100px;
+    margin-left: 30px;
+    right: 100px;
+    text-align: right;
+    background:none;
+    
+}
+
+nav#menu li {
+    display: inline-block;
+    padding: 2px 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    
+  
+}
+
+nav#menu a {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Dosis', sans-serif;
+    text-decoration: none;
+   
+}
+
+nav#menu a:hover{
+    border-bottom: 4px solid rgb(243, 181, 9);
+    border-radius: 3px 3px 3px;
+    color: rgb(180, 174, 174);
+    
+}
+
+h1 {
+    font-family: 'Gowun Dodum', sans-serif;
+    font-weight: lighter;
+    font-size: 50px;
+    text-align: center;
+   
+}
+
+h2 {
+    font-family: 'Gowun Dodum', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+    
+   
+}
+header#cabecalho-titulo {
+    display: flex;
+    padding-right: 100px;
+    justify-content: center;
+  
+   
+}
+header#cabecalho-titulo h1 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+    color:  rgba(10, 16, 50, 1);
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-right: 50px;
+
+}
+
+header#cabecalho-titulo h2 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: left;
+    margin-left: 50px;
+    padding-right: 50px;
+    padding-top: -5px;
+}
+
+header#cabecalho-titulo ul {
+    font-size: 17px;
+    font-weight: lighter;
+    text-align: left;
+    list-style: none;
+   padding: 30px 100px 30px 50px;
+    
+}
+
+header#cabecalho-titulo li {
+    padding: 5px 5px;
+   background-color: rgb(255, 255, 255);
+}
+
+header#cabecalho-titulo a {
+    font-family:'Victor Mono', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 50px;
+
+}
+
+header#cabecalho-titulo a:hover{
+    color: rgb(255, 198, 10);
+
+}
+
+
+img {
+    width: 380px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    display: flex
+;
+    /* justify-content: flex-start; */
+    /* justify-items: left; */
+    margin-left: 45px;
+}
+
+section#lado ul {
+    display: inline-flex;
+}
